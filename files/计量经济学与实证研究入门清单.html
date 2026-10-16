@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>计量经济学与实证研究入门资源清单</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box;font-family:"Microsoft YaHei",sans-serif;}
+        body{background:#ffffff;color:#333;line-height:1.7;padding:30px 5%;max-width:1200px;margin:0 auto;}
+        h1{text-align:center;font-size:26px;margin-bottom:30px;color:#222;border-bottom:2px solid #4472c4;padding-bottom:10px;}
+        h2{font-size:20px;margin:35px 0 15px;color:#4472c4;border-left:5px solid #4472c4;padding-left:10px;}
+        h3{font-size:17px;margin:20px 0 10px;color:#333;}
+        p{margin:8px 0;}
+        ul,ol{padding-left:25px;margin:10px 0;}
+        li{margin:7px 0;}
+        .box{background:#f8f9fa;padding:18px 22px;border-radius:6px;margin:15px 0;border:1px solid #e9ecef;}
+        table{width:100%;border-collapse:collapse;margin:12px 0;}
+        th,td{border:1px solid #ddd;padding:9px;text-align:left;}
+        th{background:#eef4fb;}
+        .tip{background:#fff3cd;border:1px solid #ffecb5;padding:12px;border-radius:5px;margin:12px 0;}
+        .note{color:#555;font-size:14px;margin:5px 0;}
+    </style>
+</head>
+<body>
+    <h1>计量经济学与实证研究入门资源清单（初学者版）</h1>
+
+    <div class="box">
+        <h2>一、B站 Stata 实操教学视频</h2>
+        <p class="note">说明：B站视频易下架，优先复制下面<strong>BV号</strong>，打开B站粘贴搜索即可找到课程，不使用直接跳转链接。</p>
+        <h3>1. 零基础入门（首选）</h3>
+        <ul>
+            <li>陈强《计量经济学及Stata应用》配套课程：B站搜索关键词「陈强 计量经济学 Stata」（教材配套，必看）</li>
+            <li>初级计量+Stata全套实操（Elaine施施）：BV号：<code>BV1v94y1x7pZ</code></li>
+            <li>Stata零基础速成（数据清洗+回归+内生性）：B站搜索关键词「Stata零基础速成 数据清洗」</li>
+        </ul>
+
+        <h3>2. 进阶实证专题（DID/IV/中介/固定效应）</h3>
+        <ul>
+            <li>连玉君 Stata 33讲（面板数据、双重差分、工具变量）：B站搜索关键词「连享会 Stata33讲」🔴</li>
+            <li>Stata基础+数据清洗+论文绘图+实证写作：B站搜索关键词「Stata数据清洗 论文绘图 连享会」</li>
+            <li>伍德里奇教材配套Stata实操：BV号：<code>BV1KVYTzYEuQ</code></li>
+        </ul>
+    </div>
+
+    <div class="box">
+        <h2>二、分级参考书目（由浅入深，实证导向）</h2>
+        <h3>▶ 初级基础（本科入门，优先精读）</h3>
+        <ol>
+            <li>伍德里奇.《计量经济学导论：现代观点》（第8版），中国人民大学出版社（实证经典，配套Stata案例）🔴</li>
+            <li>陈强.《计量经济学及Stata应用》（第二版），高等教育出版社（国内最贴合Stata实操的教材）</li>
+            <li>斯托克、沃森.《计量经济学》，格致出版社（文字通俗，数学难度低）</li>
+        </ol>
+
+        <h3>▶ 中级实证（硕士做论文必读，核心方法论）</h3>
+        <ol>
+            <li>安格里斯特、皮施克.《基本无害的计量经济学：实证研究者指南》，格致出版社（实证识别、因果推断圣经）🔴</li>
+            <li>安格里斯特.《精通计量》，格致出版社（DID、IV、断点回归入门）</li>
+            <li>Verbeek.《现代计量经济学指南》，Wiley（面板数据、微观计量进阶）</li>
+        </ol>
+
+        <h3>▶ 高级进阶（因果识别、面板与政策评估）</h3>
+        <ol>
+            <li>伍德里奇.《横截面与面板数据的计量经济分析》，MIT Press（微观计量天花板）</li>
+            <li>Cameron & Trivedi.《微观计量经济学：方法与应用》，剑桥大学出版社</li>
+        </ol>
+
+        <h3>▶ Stata软件工具书</h3>
+        <ul>
+            <li>连玉君.《Stata编程与实证分析》🔴</li>
+            <li>普林斯顿Stata教程（数据处理+绘图+回归）</li>
+        </ul>
+    </div>
+
+    <div class="box">
+        <h2>三、实证研究高质量期刊目录（论文参考与复现练习）</h2>
+        <h3>1. 国内CSSCI期刊（按学术级别排序）</h3>
+        <table>
+            <tr>
+                <th>梯队</th>
+                <th>期刊名称</th>
+                <th>研究特点</th>
+            </tr>
+            <tr>
+                <td>顶级A类</td>
+                <td>经济研究🔴、世界经济🔴、中国工业经济、经济学季刊🔴、管理世界</td>
+                <td>国内经济学顶刊，识别策略严谨，大量准自然实验、政策评估类实证论文</td>
+            </tr>
+            <tr>
+                <td>一流B类</td>
+                <td>财贸经济🔴、金融研究🔴、统计研究、经济管理</td>
+                <td>理论与量化实证并重，覆盖微观企业、金融、宏观经济等方向</td>
+            </tr>
+            <tr>
+                <td>一流C类</td>
+                <td>经济科学、经济学动态</td>
+                <td>细分行业与专题实证研究，适合拓展阅读</td>
+            </tr>
+        </table>
+        <h3>国内支持可复现的重点期刊介绍</h3>
+        <ul style="margin-top:12px;">
+            <li><strong>中国工业经济</strong>：国内最早推行实证论文可复现制度的期刊，要求实证论文提交完整复现包（数据+Stata代码），择优公开；聚焦企业微观、产业政策、准自然实验，是国内企业实证研究最主要对标期刊。🔴</li>
+            <li><strong>世界经济</strong>：国内较早落实实证可复现要求，录用稿件强制提交数据、Stata do文件及代码说明；官网设有“数据与程序”专栏公开配套材料，大量DID、IV、政策评估类实证论文，非常适合复刻练习。🔴</li>
+            <li><strong>财贸经济</strong>：社科院财贸所主办，近年强化实证透明与可复现规范，投稿阶段要求提交代码与数据说明；产业、贸易、财税政策实证居多，识别策略规范，适合学习严谨的实证设计。</li>
+        </ul>
+
+        <h3>2. 国际SSCI实证类期刊（优先选择<strong>强制可复现</strong>期刊，适合复刻实证代码与研究设计）</h3>
+        <ol>
+            <li>Top五大（强制可复现，AEA/计量学会数据仓库，难度高，初学者优先读摘要，不建议直接仿写）：
+                <ul>
+                    <li>American Economic Review(AER)、The Quarterly Journal of Economics(QJE)、Journal of Political Economy(JPE)、Econometrica、Review of Economic Studies(RES)</li>
+                </ul>
+            </li>
+            <li><strong>【首选｜强可复现，通用应用实证，推荐初学者复刻练习】</strong>
+                <ul>
+                    <li><strong>Journal of Applied Econometrics (JAE)</strong>：计量界老牌主打可复现期刊，自带独立数据存档库；录用强制提交完整数据+Stata/R代码，设有复现专栏，接收重复验证文章。覆盖面板、DID、IV、政策评估，实证范式最适合复刻练习（强烈推荐）</li>
+                    <li><strong>Empirical Economics</strong>：专业实证计量期刊，明确强调结果可复现，接收复现短文；大量处理效应、DID/IV/RDD、微观面板论文，Stata实证流程完整，难度友好</li>
+                    <li><strong>Journal of Business & Economic Statistics (JBES)</strong>：应用计量与统计推断，强制归档数据代码；面板、因果推断、计量方法应用，识别策略严谨</li>
+                </ul>
+            </li>
+            <li><strong>【次选｜可复现政策，中国/政策主题友好】</strong>
+                <ul>
+                    <li><strong>China Economic Review</strong>：中国经济主题SSCI，鼓励提交数据代码；大量基于CFPS、上市公司微观数据的政策评估论文，选题贴近国内实证研究</li>
+                    <li><strong>Journal of Public Economics (JPubE)</strong>：公共政策评估顶刊，遵循AEA可复现规范；DID、RDD、IV准自然实验范式标杆，因果识别写法教科书级别</li>
+                    <li><strong>Journal of Labor Economics (JOLE)</strong>：劳动经济学准自然实验大本营，强制复现包；RDD、DID、IV论文质量极高</li>
+                </ul>
+            </li>
+            <li><strong>【备选｜鼓励研究透明，可复现材料较多】</strong>
+                <ul>
+                    <li>Oxford Bulletin of Economics and Statistics：牛津主办，鼓励公开数据代码，面板与准自然实验高质量实证</li>
+                    <li>Econometrics and Statistics：要求实证结果可复现，面板、空间计量、微观计量方法应用</li>
+                    <li>Economics Letters：短篇精炼实证，适合快速学习简洁因果识别思路，部分论文附带代码</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+
+    <div class="box">
+        <h2>四、中外文献检索完整步骤（实证论文文献调研流程）</h2>
+        <h3>第一步：搭建检索关键词（中英文对照）</h3>
+        <p>检索公式：(核心词1 OR 同义词) AND (核心词2 OR 同义词) AND 实证/empirical</p>
+        <div class="tip">示例：数字经济 + 企业生产率；英文：(digital economy OR digital transformation) AND (firm productivity OR total factor productivity) AND empirical</div>
+
+        <h3>第二步：中文文献检索平台与操作顺序</h3>
+        <ol>
+            <li>首选：中国知网CNKI（高级检索，勾选CSSCI核心，限定近5年）</li>
+            <li>文献溯源：找到高被引论文，点开参考文献，追溯经典文献；利用“引证文献”查看最新拓展研究。</li>
+        </ol>
+
+        <h3>第三步：英文文献检索平台（实证论文必备）</h3>
+        <ol>
+            <li>首选：Elsevier（爱思唯尔），海量经济学SSCI期刊全文，支持高级检索、参考文献溯源</li>
+            <li>基础入口：Google Scholar（谷歌学术），筛选SSCI、近5年；一键导出BibTeX参考文献</li>
+            <li>权威数据库：Web of Science（SCI/SSCI）、EconLit（美国经济学会经济学全文库）、JSTOR</li>
+            <li>工作论文（前沿研究）：SSRN、NBER Working Paper（最新DID、IV、因果识别方法）</li>
+            <li>免费全文工具：Semantic Scholar、Elicit、ResearchRabbit（自动拓展文献、追踪研究脉络）</li>
+        </ol>
+
+        <h3>第四步：文献筛选四步法（实证研究专用）</h3>
+        <ol>
+            <li>1）先看标题+摘要：重点关注<strong>量化实证、因果识别（DID/IV/RDD）</strong>，可保留理论文献用于文献综述；</li>
+            <li>2）再看研究设计：重点复制学习模型设定、变量定义、数据来源；</li>
+            <li>3）精读核心论文：优先精读Top期刊+同主题中文核心，整理基准回归、稳健性检验、内生性处理方案；</li>
+            <li>4）整理文献综述：按照“理论基础→基准实证→内生性问题→拓展研究”分层梳理。</li>
+        </ol>
+    </div>
+
+    <div class="box">
+        <h2>五、实证研究配套资源（数据+代码+论文模板）</h2>
+        <h3>1. 微观/宏观公开数据库</h3>
+        <ul>
+            <li>国内：CFPS、CHFS、CHIP、工业企业数据库、上市公司CSMAR、CNDD、宏观EPS数据库</li>
+            <li>国际：World Bank、WDI、Penn World Table、OECD、IPUMS</li>
+        </ul>
+
+        <h3>2. Stata代码资源网站</h3>
+        <ul>
+            <li>连享会（lianxh.cn）：DID、IV、中介效应、PSM、断点回归全套代码</li>
+            <li>Stata官方帮助、RePEc、GitHub计量实证代码仓库</li>
+            <li>经管之家、Stata中文论坛：现成实证do文件、数据清洗模板</li>
+        </ul>
+
+        <h3>3. 论文写作模板</h3>
+        <ul>
+            <li>Word：CSSCI期刊标准排版、三线表、描述性统计表、回归结果表格模板</li>
+            <li>LaTeX：实证计量论文模板（含回归表格、图表）；Overleaf在线编译</li>
+        </ul>
+    </div>
+
+    <div class="tip">
+        <h3>六、初学者学习路线（3个月入门实证）</h3>
+        <ol>
+            <li>第1个月：看完陈强教材+配套B站视频，掌握Stata基础命令、数据清洗、OLS多元回归、固定效应模型；</li>
+            <li>第2个月：精读《基本无害的计量经济学》，学习内生性处理：工具变量IV、双重差分DID、PSM匹配；</li>
+            <li>第3个月：选定研究题目，检索文献，复刻一篇期刊实证论文，完成基准回归+稳健性检验+内生性检验，形成完整实证初稿。</li>
+        </ol>
+    </div>
+
+    <footer style="margin-top:40px;text-align:center;color:#666;font-size:14px;">
+        资源清单更新日期：2026年10月 | 适用于经管本科、硕士实证论文入门学习
+    </footer>
+</body>
+</html>
